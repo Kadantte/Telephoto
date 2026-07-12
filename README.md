@@ -42,7 +42,7 @@ Unlike traditional cloud services, your media goes directly to your own Telegram
 
 ## ✨ Features
 
-### AI (upcoming)
+### AI
 - **AI auto caption** - integrated Gemini chatgpt API to give you context about the image transcription translation and many more.
 
 ### 📤 Backup & Storage
