@@ -40,10 +40,41 @@ Unlike traditional cloud services, your media goes directly to your own Telegram
 
 ---
 
-## ✨ Features
+## 🆕 What's New in Version 69
 
-### AI
-- **AI auto caption** - integrated Gemini chatgpt API to give you context about the image transcription translation and many more.
+### 👤 People & Face Recognition (Offline)
+- **Automatic face detection and grouping** — like Google Photos, but fully offline
+- **People tab** — view and manage all detected faces in one place
+- **Offline recognition** — no data leaves your device; complete privacy
+- **Face recognition folder support** — choose which folders to scan for faces
+
+### 📝 Notes Tab
+- **Markdown-supported notes** — create rich formatted notes with bold, italic, links, and more
+- **AI-powered note assistance** — get smart suggestions, summaries, and enhancements for your notes
+- **Organized note management** — keep your thoughts alongside your media
+
+### 🏷️ Captions & Hashtags
+- **Rich image captions** — add descriptive text to your photos
+- **Hashtag support (#tags)** — organize and discover photos easily
+- **Common caption** — apply the same caption to multiple images at once
+- **Markdown formatting** — style your captions with bold, italic, links, and more
+
+### 🤖 AI-Powered Features
+- **AI auto caption** — integrated Gemini/ChatGPT API for image context, transcription, and translation
+- **AI note assistance** — enhance your notes with intelligent suggestions
+
+### ⚡ Quick Folder Management
+- New button in image details section to **quickly add/remove folders** from:
+  - Included directories
+  - Excluded directories  
+  - Face recognition scanning
+
+### 📦 Important Note
+> **Version 69 has a larger APK size** due to the offline face recognition models. We believe the privacy and offline capability are worth the extra space!
+
+---
+
+## ✨ Core Features
 
 ### 📤 Backup & Storage
 - **Custom Telegram bot backup** — your media is stored in your own Telegram chat
@@ -78,6 +109,9 @@ Unlike traditional cloud services, your media goes directly to your own Telegram
 - **Parallel OCR and improved OCR workflow** — faster, cleaner recognition and updates
 - **Per-image OCR reprocessing** — refresh OCR for selected images when needed
 
+### 🔄 Cross-Device Synchronization (v60+)
+Sync your media seamlessly across all your devices — changes made on one device reflect everywhere
+
 ### ⚙️ System & Reliability
 - **Improved upload/delete/OCR pipeline** — better overall media processing flow
 - **Improved background operation** — more reliable long-running tasks
@@ -87,42 +121,8 @@ Unlike traditional cloud services, your media goes directly to your own Telegram
 - **Database backup reminder card** — prompts you to protect app data
 - **Use Telephoto as a viewer from other apps** — open and view images directly
 
----
-
-## 🆕 What's New in Version 60
-
-### 🔄 Cross-Device Synchronization
-Sync your media seamlessly across all your devices — changes made on one device reflect everywhere
-
-### 📂 Optimized Collection Tab
-Faster, smoother, and more intuitive collection management
-
-### 📝 Rich Captions
-- **Image Captions** — add descriptive text to your photos
-- **Markdown Support** — format your captions with bold, italic, links, and more
-- **Tags & Hashtags** — organize and discover photos with #tags
-- **Common Caption** — apply the same caption to multiple images at once
-
-### 🔍 Enhanced Search
-New optimized search algorithm for faster and more accurate results
-
-### 🖼️ Improved Media Viewing
-- **Optimized Image Viewer** — smoother zooming and navigation
-- **QR Code Scanner** — scan QR codes directly from images
-- **Revamped UI** — fresh new look for image preview and cloud image preview
-- **Thumbnail Wheel** — quickly scrub through images with an intuitive thumbnail slider
-
-### ⚡ Quality of Life
-- **Tap to Scroll to Top** — quickly return to the top of any list with a single tap
-- **Recent Favorites** — quickly access your most recently favorited items
-- **Sync ID Implementation** — improved backend tracking for reliable synchronization
-
 ### 📱 Home Screen Widgets (Android 16+)
 Official widget support — view your memories and recent photos right from your home screen
-
----
-
-> **Version 60** brings powerful cross-device sync, rich Markdown captions with hashtags, a completely revamped UI, and official Android 16+ widget support. Update today to experience the future of privacy-first cloud backup.
 
 ---
 
@@ -196,7 +196,7 @@ Download the latest APK and install it on your Android device.
   </a>
 </p>
 
-**Latest on GitHub:** 60.0
+**Latest on GitHub:** 69.0
 
 ---
 
@@ -225,6 +225,7 @@ Download the latest APK and install it on your Android device.
 ```
 Settings > Apps > Telephoto > Permissions → Enable "Files and media"
 ```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -232,6 +233,7 @@ Settings > Apps > Telephoto > Permissions → Enable "Files and media"
 - Flutter & Dart
 - Telegram Bot API
 - On-device OCR (Tesseract)
+- On-device Face Recognition (ML Kit)
 
 ---
 
@@ -241,4 +243,3 @@ Settings > Apps > Telephoto > Permissions → Enable "Files and media"
   💬 <a href="https://t.me/+Ibqj82NDaLszOTg1">Discussion Group</a> •
   📥 <a href="https://info.asrumon.workers.dev/telephoto/latest.apk">Download APK</a>
 </p>
-
