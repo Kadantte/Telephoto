@@ -1,4 +1,4 @@
-# Telephoto
+# Telephoto v71 "Freedom" Release
 
 <p align="center">
   <img src="https://pub-0548ab57b95d46879446457637ed6426.r2.dev/2026-03-10_1642bytes_Asset_3.svg" alt="Telephoto Logo" width="120"/>
@@ -32,45 +32,36 @@ Unlimited backups • No subscriptions • Your data, your control
 
 ---
 
+## 🆕 What's New in Version 71 "Freedom"
+
+### 🚀 Performance & UI
+- **Optimized UI** — smoother, cleaner interface with improved responsiveness
+- **Bug fixes** — various issues resolved for a more stable experience
+- **Faster than before** — enhanced performance across the entire app
+
+### 📝 Notes Tab (Major Upgrade)
+- **Advanced Markdown support** — full markdown formatting for rich notes
+- **LaTeX support** — write mathematical expressions and formulas
+- **Mermaid support** — create diagrams, flowcharts, and sequence diagrams
+- **TikZ support** — generate high-quality vector graphics directly in notes
+- **Enhanced AI note assistance** — smarter suggestions and content generation
+- **Note pinning** — keep important notes at the top for quick access
+
+### 👤 Face Detection & People
+- **People option in image details** — new "People" section in image details for easy face management
+- **Improved face detection** — better accuracy and faster detection
+
+### 💡 Other Improvements
+- **More optimized for AI-based notes** — seamless integration with AI features
+- **Slightly improved face detection** — enhanced recognition performance
+
+---
+
 ## 📸 What is Telephoto?
 
 **Telephoto** is a simple, privacy-focused Android app that backs up your photos and videos to **Telegram** using a bot you control.
 
 Unlike traditional cloud services, your media goes directly to your own Telegram chat — giving you unlimited storage, fast access, and full ownership of your data.
-
----
-
-## 🆕 What's New in Version 69
-
-### 👤 People & Face Recognition (Offline)
-- **Automatic face detection and grouping** — like Google Photos, but fully offline
-- **People tab** — view and manage all detected faces in one place
-- **Offline recognition** — no data leaves your device; complete privacy
-- **Face recognition folder support** — choose which folders to scan for faces
-
-### 📝 Notes Tab
-- **Markdown-supported notes** — create rich formatted notes with bold, italic, links, and more
-- **AI-powered note assistance** — get smart suggestions, summaries, and enhancements for your notes
-- **Organized note management** — keep your thoughts alongside your media
-
-### 🏷️ Captions & Hashtags
-- **Rich image captions** — add descriptive text to your photos
-- **Hashtag support (#tags)** — organize and discover photos easily
-- **Common caption** — apply the same caption to multiple images at once
-- **Markdown formatting** — style your captions with bold, italic, links, and more
-
-### 🤖 AI-Powered Features
-- **AI auto caption** — integrated Gemini/ChatGPT API for image context, transcription, and translation
-- **AI note assistance** — enhance your notes with intelligent suggestions
-
-### ⚡ Quick Folder Management
-- New button in image details section to **quickly add/remove folders** from:
-  - Included directories
-  - Excluded directories  
-  - Face recognition scanning
-
-### 📦 Important Note
-> **Version 69 has a larger APK size** due to the offline face recognition models. We believe the privacy and offline capability are worth the extra space!
 
 ---
 
@@ -127,6 +118,27 @@ Official widget support — view your memories and recent photos right from your
 ---
 
 ## 🖼️ Screenshots
+
+### New in Version 71 "Freedom"
+
+<p align="center">
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_55_20260829_203221_anu3g.jpg" width="200"/>
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_53_20260829_203221_tgrnk.jpg" width="200"/>
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_51_20260829_203221_up7f7.jpg" width="200"/>
+</p>
+
+<p align="center">
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_50_20260829_203221_81tq3.jpg" width="200"/>
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_49_20260829_203221_8ic7c.jpg" width="200"/>
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_48_20260829_203221_4f2mi.jpg" width="200"/>
+</p>
+
+<p align="center">
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_47_20260829_203221_atafw.jpg" width="200"/>
+  <img src="https://pub-827da1ef12554ad5b31522d9852de6b7.r2.dev/photo_2026_08_29_20_31_41_20260829_203221_kupok.jpg" width="200"/>
+</p>
+
+### Previous Screenshots (v69)
 
 <p align="center">
   <img src="https://pub-0548ab57b95d46879446457637ed6426.r2.dev/2026-06-01_1308653bytes_Screenshot_20260601_234143_Telephoto.png" width="200"/>
@@ -196,7 +208,7 @@ Download the latest APK and install it on your Android device.
   </a>
 </p>
 
-**Latest on GitHub:** 69.0
+**Latest on GitHub:** 71.0 "Freedom"
 
 ---
 
@@ -234,6 +246,19 @@ Settings > Apps > Telephoto > Permissions → Enable "Files and media"
 - Telegram Bot API
 - On-device OCR (Tesseract)
 - On-device Face Recognition (ML Kit)
+
+---
+
+## 📝 Notes Feature Deep Dive
+
+With v71 "Freedom," Telephoto's notes feature now supports:
+
+- **Markdown**: Headers, lists, code blocks, tables, links, images, and more
+- **LaTeX**: Mathematical expressions and formulas
+- **Mermaid**: Flowcharts, sequence diagrams, class diagrams, state diagrams, and more
+- **TikZ**: High-quality vector graphics and illustrations
+- **AI Assistance**: Smart suggestions, summaries, and enhancements
+- **Pin Notes**: Keep important notes at the top
 
 ---
 
